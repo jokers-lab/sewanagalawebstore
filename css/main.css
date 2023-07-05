@@ -1,0 +1,260 @@
+#img-id img {
+    width: 60px;
+    height: 60px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-shadow-md {
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-sm {
+    font-size: 13.5px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.background-top {
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/products_background.jpg");
+}
+
+.background-main {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: bottom;
+    background-image: url("../images/no-repeat.jpg");
+}
+
+.img-responsive {
+    margin: 0;
+}
+
+.card-heading {
+    font-size: 20.5px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.card-subtitle {
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.card-content {
+    color: #fff;
+}
+
+.img-responsive img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+.bg-green-500 {
+    background-color: #16a34a;
+}
+
+.txt-green-500 {
+    color: #16a34a;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.w-full {
+    width: 100%;
+    border-top: none;
+}
+
+.card-footer a {
+    color: #ffffff;
+    text-decoration: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 5px;
+}
+
+.underline-none {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.underline-none:visited {
+    color: #1c1c1c;
+}
+
+.underline-none:hover {
+    color: #16a34a;
+    font-weight: 600;
+    font-size: 15.5px
+}
+
+.py-10 {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+
+/* WooCommerce */
+li.product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0rem 0.75rem 1.5rem 0.75rem !important;
+}
+
+.post-thumbnail img {
+    width: 200px;
+    height: 200px;
+}
+
+.post-thumbnail {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.entry-header {
+    text-align: center;
+}
+
+.entry-title {
+    text-transform: uppercase;
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #16a34a;
+}
+
+li.product-type-simple {
+    background-color: #0c0a09;
+}
+
+.woocommerce-loop-product__title {
+    text-align: center;
+    padding: 1rem 0rem;
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 25px !important;
+}
+
+.price {
+    text-align: center;
+}
+
+li.product .button {
+    background-color: #16a34a;
+    text-transform: uppercase;
+    border: transparent;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+li.product .button:hover {
+    background-color: #4ade80 !important;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+button {}
+
+.align-center {
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.flex-box button {
+    background: #16a34a;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.col-background {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../');
+}
+
+.entry-footer {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-green-500 {
+    color: #16a34a;
+}
+
+.text-xl {
+    font-size: 2.75rem;
+}
+
+.text-700 {
+    font-weight: 700;
+}
+
+/* .text-base {
+    font-size: 14px;
+} */
+
+.absolute {
+    position: absolute;
+}
+
+.entry-content {
+    margin: 5.5em 0 0;
+}
+
+.columns-4 {
+    padding: 2.5rem 0 0 0;
+}
+
+.woocommerce-result-count {
+    visibility: hidden;
+}
+
+form.woocommerce-ordering {
+    visibility: hidden;
+}
