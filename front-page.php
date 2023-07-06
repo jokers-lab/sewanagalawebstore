@@ -27,7 +27,7 @@
     </div>
     <div class="row py-3 col-background">
         <div class="col-sm-7">
-            
+
         </div>
         <div class="col-sm-5">
             <div class="flex-card py-3">
@@ -55,7 +55,7 @@
                                 <a href="#">all products</a>
                                 <a href="#">hair oil</a>
                                 <a href="#">adult care</a>
-                                <a href="#">cough syrups</a>
+                                <a href="<?php do_shortcode('[product category="adult-care" limit=6]'); ?>">cough syrups</a>
                             </div>
                         </div>
                     </div>

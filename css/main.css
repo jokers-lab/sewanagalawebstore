@@ -190,7 +190,6 @@ li.product .button:hover {
     font-weight: 600;
 }
 
-button {}
 
 .align-center {
     text-align: center;
@@ -235,6 +234,22 @@ button {}
     font-weight: 700;
 }
 
+.footer-bottom {
+    background-color: #a5b4fc;
+    padding: 0.75rem 0rem;
+}
+
+.footer-secondary {
+    padding: 2.95rem 0rem;
+    background-color: #39374d;
+}
+
+.font-footer {
+    font-size: 11.5px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
 /* .text-base {
     font-size: 14px;
 } */
@@ -251,10 +266,10 @@ button {}
     padding: 2.5rem 0 0 0;
 }
 
-.woocommerce-result-count {
-    visibility: hidden;
+.line-h-1 {
+    line-height: 1px;
 }
 
-form.woocommerce-ordering {
+.page-title {
     visibility: hidden;
 }

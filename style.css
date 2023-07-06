@@ -967,3 +967,19 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+
+/* WooCommerce
+--------------------------------------------- */
+
+.woocommerce-result-count {
+    visibility: hidden;
+}
+
+form.woocommerce-ordering {
+    visibility: hidden;
+}
+
+li.product a img:hover {
+	transform: scale(1.1);
+}
