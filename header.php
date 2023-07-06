@@ -34,10 +34,10 @@
 					<a href="<?php echo site_url('/'); ?>" class="underline-none">Home</a>
 				</div>
 				<div class="font-semibold text-sm capitalize">
-					<a href="<?php site_url('/about'); ?>" class="underline-none">About</a>
+					<a href="<?php echo site_url('/about'); ?>" class="underline-none">About</a>
 				</div>
 				<div class="font-semibold text-sm capitalize">
-					<a href="<?php site_url('/kameshwari'); ?>" class="underline-none">Kameshwari</a>
+					<a href="<?php echo site_url('/kameshwari'); ?>" class="underline-none">Kameshwari</a>
 				</div>
 				<div id="img-id">
 					<img src="<?php echo get_template_directory_uri() . './images/logo.png' ?>" alt="base_logo">
@@ -46,10 +46,10 @@
 					<a href="<?php echo site_url('/shop') ?>" class="underline-none">Products</a>
 				</div>
 				<div class="font-semibold text-sm capitalize">
-					<a href="" class="underline-none">Founder's Treatment</a>
+					<a href="<?php echo site_url('/founders-treatment') ?>" class="underline-none">Founder's Treatment</a>
 				</div>
 				<div class="font-semibold text-sm capitalize">
-					<a href="" class="underline-none">Contact Us</a>
+					<a href="<?php echo site_url('/contact') ?>" class="underline-none">Contact</a>
 				</div>
 
 				<section class="">
